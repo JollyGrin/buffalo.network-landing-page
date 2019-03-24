@@ -45,3 +45,7 @@ hr {
 	font-size: 1.3em;
 	opacity: .5;
 }
+
+.faded {
+	opacity: .5;
+}
