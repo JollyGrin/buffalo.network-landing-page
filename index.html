@@ -10,6 +10,14 @@
     <!-- Bulma Version 0.7.1-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
 
+    <link rel="stylesheet" type="text/css" href="css/edits.css">
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Karla|Rubik:400,700" rel="stylesheet">
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
     <!-- FAVICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -20,66 +28,357 @@
     <meta name="theme-color" content="#ffffff">
     <!-- // FAVICON -->
 
-
-    <style type="text/css">
-        html,
-        body {
-            font-family: 'Indie Flower';
-            background: url(media/background.svg) repeat-y;
-            background-position: top center;
-                background-size: cover;
-            }
-        /*.hero-bkg-animated {
-                background: #4a4a4a url("data:image/svg+xml,%3Csvg width='100' height='20' viewBox='0 0 100 20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z' fill='%23ff475d' fill-opacity='0.11' fill-rule='evenodd'/%3E%3C/svg%3E");
-                box-sizing: border-box;
-                padding-top: 5vh;
-                -webkit-animation: slide 20s linear infinite;
-        }
-        @-webkit-keyframes slide {
-                  from { background-position: 0 0; }
-                  to { background-position: -400px 0; }
-        }*/
-    </style>
 </head>
 
+<style type="text/css">
+  p span {
+    font-family: "Karla";
+  }
+  h1, h2, h3, h4, h5 {
+    font-family: "Rubik";
+  }
+</style>
+
 <body>
-    <section class="hero is-fullheight is-default is-bold hero-bkg-animated">
-        <div class="hero-body">
-          <div class="container">
-            <div class="columns">
-              <div class="column level">
-                <div class="level-item">
-                  <!-- <img src="media/grinninja.svg"> -->
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/L1pnwz4dY0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
+
+  <!-- NAVBAR -->
+  <section class="section is-header">
+    <div class="container">
+      <nav class="navbar">
+        <div class="levels">
+          <div class="level-item">
+            <div class="navbar-brand">
+              <a href="/">
+                <img src="media/buff_rainbow.svg" style="height: 5rem; vertical-align: text-top;" >
+              </a>
+            </div>
+          </div>
+        </div>        
+      </nav>
+    </div>
+  </section>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns">
+          <div class="column is-4 is-offset-1">
+            <h1 class="title">Think Circular</h1>
+            <p>
+              We have enough lego blocks, we just need a way to circulate resources not being used into new projects that need it. 
+            </p>
+
+            <br><br>
+
+            <div class="level">
+              <div class="level-item is-pulled-left">
+                <a class="button is-green is-medium is-rounded" href="#pledge">Join</a>
+              </div>
+              <div class="level-item">
+                <i class="fab fa-youtube faded" style="margin-right: -.5em; "></i>
+                <a class="button is-medium is-text faded" href="https://youtu.be/L1pnwz4dY0E"> Watch the Video</a>
               </div>
             </div>
-            <div class="columns">
-              <div class="column is-6 is-offset-3">
-                  <p style="color: white;">
-                  	The American Buffalo or Bison is a symbol of abundance and manifestation. The lesson learned by the Lakota is that one does not have to struggle to survive. This is especially true if the right action is joined by the right prayer. By learning to appropriately unite the mundane with the divine, all that will be needed will be provided
+          </div>
+          <div class="column is-3 is-offset-2">
+            <img src="media/dots.webp">
+          </div>
+        </div>
+        <div class="columns">
+          <div class="column is-6 is-offset-3">
+            <div class="level hero-menu is-mobile">
+              <div class="level-item">
+                <a href="#mani" class="button is-text">Why</a>
+              </div>
+              <div class="level-item">
+                <a href="#pledge" class="button is-text">Pledge</a>
+              </div>
+              <div class="level-item">
+                <a href="#team" class="button is-text">Team</a>
+              </div>
+              <!-- <div class="level-item">
+                <a href="#" class="button is-text">Blog</a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+
+  <!-- BODY -->
+  <section class="section dot-back">
+    <div class="container">
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <div class="content">
+              
+                  <p class="quotes has-text-justified">
+                    The American Buffalo is a symbol of abundance and manifestation. The lesson learned by the Lakota is one does not have to struggle to survive if the right action is joined by the right prayer. By learning to unite the mundane with the divine, all that will be needed will be provided.
                   </p>
+                
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+    
+    <div id="mani" class="container">
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <div class="content">
+            <h1 class="title">
+            Abundance for generations to come.
+            </h1>
+            <p>
+             We have enough resources available to meet and improve our standard of living for generations to come.
+
+             <br><br>
+
+             <img src="media/kids.svg">
+
+              <br><br>
+
+              Instead, the world economic-engine is based upon consuming and throwing away everything we use. Yet inside everything we throw away are lego blocks that could be used to build something else.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+     <br><br>
+
+    <div id="pledge" class="container">
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <div class="content">
+            <h1 class="title">
+              It starts with a pledge.
+            </h1>
+
+            <p>
+              The Native Americans are well known for using every part of a Buffalo. Its stomach, for example, became a soup kettle and its horns the spoons to eat the soup. It provided them all they needed, and as a result, it has become our symbol of abundance.
+            </p>
+
+             <br><br>
+            
+            <!-- pledge box -->
+            <div class="columns">
+              <div class="column box">
+                <div class="content">
+                  
+                  <h5 class="subtitle">The Buffalo Pledge</h5>
+
+                  <p class="faded">
+                    The Buffalo Network is a community of individuals and organizations that believe that we can return to the Native American principle of abundance. This is possible through merging technology with a mind shift in how we approach value. Our perception must shift from planned obsolescence towards planned provisioning. Technology offers opportunities to catalyze such a shift such as through tracking and incentivizing responsible circular consumption.
+                  </p>
+
+                  <div class="columns">
+                    <div class="column is-10 is-offset-1">
+                      <ol>
+                        <li>
+                          Planned Obsolescence is not a long-term sustainable model for economic prosperity.
+                        </li>
+                        <li>
+                          We should never throw away valuable resources that can be repurposed into new utility
+                        </li>
+                        <li>
+                          The Circular economy should be the first supplier of all resources, with extraction as a last resort.
+                        </li>
+                        <li>
+                          We must radically rethink and raise the threshold on acceptable efficiency levels of resource use, ensuring every resource fulfills its full utility and value potential.
+                        </li>
+                        <li>
+                          Technology can materialize a cultural shift, playing an important role in encouraging such a shift (such as tracking resources).
+                        </li>
+                      </ol>
+                    </div>
+                  </div>
+
+                  <br>
+
+                  <p class="faded">
+                      We have been blessed with an immense supply of resources.  The world is our Buffalo. Our dream is to keep these resources abundant and secure a better life for all.
+                    </p>
+
+                    <br>
+
+                    <div class="levels">
+                      <div class="level-right">
+                        <div class="level-item">
+                          <p>
+                            <strong>I hold these truths to be self-evident:</strong>
+                          </p>
+                        </div>
+                        <div class="level-item">
+                          <a href="https://airtable.com/shrxDmmeEAiwwhCcX" class="button is-green is-rounded">Sign the Pledge</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="container">
-            
-          </div>
-        </div>
-        <div class="hero-foot">
-            <div class="container">
-                <div class="tabs is-centered">
-                    <ul>
-                        <li style="display: inline-block; opacity: .3">
-                            <!-- <span><a href="#">#</a></span> -->
-                        </li>
-                    </ul>
+
+            <br><br>
+
+            <!-- patrons -->
+            <!-- <div class="columns">
+              <div class="column box">
+              <p class="has-text-centered">
+                <strong class="faded">Patrons of the Buffalo Network</strong>
+              </p>
+              
+              <nav class="level patrons is-tablet">
+                <div class="level-item has-text-centered">
+                  <div>
+                    <p class="heading">APG</p>
+                    <img src="media/biz_holder.svg">
+                  </div>
                 </div>
-            </div>
+                <div class="level-item has-text-centered">
+                  <div>
+                    <p class="heading">Accenture</p>
+                    <img src="media/biz_holder.svg">
+                  </div>
+                </div>
+                <div class="level-item has-text-centered">
+                  <div>
+                    <p class="heading">Want to Join?</p>
+                    <p class="title">Sign the Pledge!</p>
+                  </div>
+                </div>
+              </nav> 
+            </div> -->
+
+          </div>          
         </div>
-    </section>
-    <script src="../js/bulma.js"></script>
+      </div>
+    </div>
+
+    <br><br>
+
+    <div id="team" class="container">
+      <div class="columns">
+        <div class="column is-8 is-offset-2">
+          <div class="content">
+
+            <h1 class="title">
+            Building the protocol.
+            </h1>
+            <p>
+             This April 12-14 2019, team Buffalo (Poseiden) will be building the buffalo.network protocol at the <a href="http://odyssey.org">Odyssey Hackathon</a> in Groningen, Netherlands. The goal is to materalize this cultural shift with the necessary technology.
+
+             <br><br>
+
+             <img src="media/construction.svg">
+            </p>
+
+            <!-- TEAM -->
+            <!-- <div class="level patrons is-tablet">
+              
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class="heading">APG</p>
+                  <p class="heading">Nathalie Drost</p>
+                  <img src="media/biz_holder.svg">
+                  <br>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-medium"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>                  
+                </div>
+              </div>
+
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class="heading">APG</p>
+                  <p class="heading">Nathalie Drost</p>
+                  <img src="media/biz_holder.svg">
+                  <br>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-medium"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>                  
+                </div>
+              </div>
+
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class="heading">APG</p>
+                  <p class="heading">Nathalie Drost</p>
+                  <img src="media/biz_holder.svg">
+                  <br>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-medium"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>                  
+                </div>
+              </div>
+
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class="heading">APG</p>
+                  <p class="heading">Nathalie Drost</p>
+                  <img src="media/biz_holder.svg">
+                  <br>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-medium"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>                  
+                </div>
+              </div>
+
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class="heading">APG</p>
+                  <p class="heading">Nathalie Drost</p>
+                  <img src="media/biz_holder.svg">
+                  <br>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-medium"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>                  
+                </div>
+              </div>
+
+              <div class="level-item has-text-centered">
+                <div>
+                  <p class="heading">COMPANY</p>
+                  <p class="heading">NAME</p>
+                  <img src="media/biz_holder.svg">
+                  <br>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-medium"></i></a>
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>                  
+                </div>
+              </div>
+            </div> -->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section class="footer">
+    <div class="content has-text-centered">
+        <p>
+          <strong>Buffalo.Network</strong> is a protocol to be created at the Odyssey Hackathon.
+          <br>
+          Using Blockchain, AI, and IoT to solve tradegy of the commons. <a href="http://opensource.org/licenses/mit-license.php">#COMMONIZATION</a>. 
+        </p>
+      </div>
+  </section>
+
 </body>
 
 </html>
