@@ -41,6 +41,14 @@ hr {
    */
     }
 
+.patrons .level-item div img {
+	height: 5rem;
+}
+
+/*.patrons {
+	height: 30px;
+}*/
+
 .quotes {
 	font-size: 1.3em;
 	opacity: .5;
