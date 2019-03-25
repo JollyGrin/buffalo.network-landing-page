@@ -34,7 +34,7 @@ hr.color {
 
 hr {
     position: relative;
-    bottom: -4.5vh;
+    bottom: -4.1vh;
     border: 0; 
     height: 15px;
     background: linear-gradient(to right, red, yellow, green);
