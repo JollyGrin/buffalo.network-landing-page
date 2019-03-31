@@ -9,12 +9,12 @@
 	    background-size: cover;
 }
 
-i, .how-items {
-  font-size: 2em;
+.fas .how-items {
+  font-size: 2.3em;
 }
 
-p, .how-items {
-  font-size: 1em;
+.how-items {
+  font-size: 1.3em;
 }
 
 section:before {
