@@ -9,6 +9,14 @@
 	    background-size: cover;
 }
 
+i, .how-items {
+  font-size: 2em;
+}
+
+p, .how-items {
+  font-size: 1em;
+}
+
 section:before {
   border: 0;   /* in order to override TWBS stylesheet */
   height: 5px;
